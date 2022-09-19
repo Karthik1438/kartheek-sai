@@ -16,7 +16,7 @@ print(numbers[9:90])
 print(numbers[-4:-3])
 #tuples : these are muttable ones,In which we cannot insert or update the values of the data..
 #these are denoted as ().
-Mobiles=['Oppo','Vivo,'Mi','Iqoo','Samsung','Apple','Realme']
+Mobiles=['Oppo','Vivo','Mi','Iqoo','Samsung','Apple','Realme']
 print(Mobiles) 
 #Slicing in tuples..
 print(Mobiles[0:3])

@@ -1,7 +1,7 @@
 #Lists : A list is an immutable one.it is denoted as[].it is similar array in a java and c..
 numbers=[1,2,3,5,7]
 print(numbers)
-alphabets.insert(6,9)
+numbers.insert(6,9)
 print(numbers)
 numbers.append(3)
 print(numbers)
@@ -48,3 +48,30 @@ print(Bikes)
 keys_for_slicing=["Suzuki"]
 sliced_Bikes = {key:Bikes[key] for key in keys_for_slicing} 
 print(Bikes)
+         
+Output:
+[1, 2, 3, 5, 7]
+[1, 2, 3, 5, 7, 21]
+[1, 2, 3, 5, 7, 21, 3]
+[1, 3, 5, 7, 21, 3]
+[1, 2, 3, 5, 7]
+[1, 2, 3]
+[3, 5]
+[]
+[2]
+('Oppo', 'Vivo', 'Mi', 'Iqoo', 'Samsung', 'Apple', 'Realme')
+('Oppo', 'Vivo', 'Mi')
+('Samsung', 'Apple')
+('Mi', 'Iqoo', 'Samsung', 'Apple')
+('Oppo', 'Vivo', 'Mi')
+()
+{'Kawasaki': '10 lakhs', 'Dugati': '12 lakhs', 'RE': '5 lakhs', 'Suzuki': '15 lakhs'}
+{'Kawasaki': '16 lakhs', 'Dugati': '12 lakhs', 'RE': '5 lakhs', 'Suzuki': '15 lakhs'}
+{'Kawasaki': '16 lakhs', 'Dugati': '14 lakhs', 'RE': '5 lakhs', 'Suzuki': '15 lakhs'}
+{}
+{}
+{}
+{'Kawasaki': '10 lakhs', 'Dugati': '12 lakhs', 'RE': '5 lakhs', 'Suzuki': '15 lakhs'}
+{'Kawasaki': '10 lakhs', 'Dugati': '12 lakhs', 'RE': '5 lakhs', 'Suzuki': '15 lakhs'}
+{'Kawasaki': '10 lakhs', 'Dugati': '12 lakhs', 'RE': '5 lakhs', 'Suzuki': '15 lakhs'}
+ 
